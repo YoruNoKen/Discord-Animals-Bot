@@ -8,4 +8,4 @@ export async function run({ interaction }: { interaction: ChatInputCommandIntera
   const ms = Date.now() - timeNow;
   response.edit(`Pong! 🏓(${ms}ms)`);
 }
-export { data } from "../data/ping_data";
+export { data } from "../data/pingData";

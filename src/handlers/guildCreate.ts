@@ -1,5 +1,5 @@
 import { Guild, ChannelType, PermissionFlagsBits, TextChannel } from "discord.js";
-import { server_join_message } from "../constants";
+import { serverJoinMessage } from "../constants";
 import { MyClient } from "..";
 
 export const name = "guildCreate";
@@ -10,7 +10,7 @@ export const execute = async (guild: Guild, client: MyClient) => {
     if (!botPermissions) return;
 
     if (channel.type === ChannelType.GuildText && botPermissions.has(PermissionFlagsBits.SendMessages) && botPermissions.has(PermissionFlagsBits.ViewChannel)) {
-      channel.send(server_join_message(client));
+      channel.send(serverJoinMessage(client));
       return;
     }
   });
