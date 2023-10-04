@@ -1,4 +1,4 @@
-# Anim
+# Animals Bot
 
 A Discord bot written in TypeScript that uses the bun runtime. Returns random images of animals..
 
