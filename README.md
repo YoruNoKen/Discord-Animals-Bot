@@ -22,7 +22,9 @@ TOKEN=DISCORD_TOKEN_HERE
 ## 🖥️ Commands 
 
 ```env
-/cats (replies with a random media of cats.)
+/cats - replies with a random media of cat(s).
+/dogs - replies with a random media of dog(s).
+/foxes - replies with a random media of fox(es).
 ```
 
 ## 🙌 Credits
