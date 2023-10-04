@@ -1,0 +1,15 @@
+{
+  "name": "animalsbot",
+  "version": "1.0.0",
+  "author": "",
+  "main": "src/index.ts",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "start": "bun ."
+  }
+}
