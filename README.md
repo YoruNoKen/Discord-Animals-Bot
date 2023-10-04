@@ -32,3 +32,9 @@ APIs used are as follows:
 
 - [cat facts](https://meowfacts.herokuapp.com/)
 - [cat images](https://cataas.com)
+
+- [dog facts](https://dogapi.dog/api/v2/facts)
+- [dog images](https://dog.ceo/api/breeds/image/random)
+
+- [fox facts](https://fungenerators.com/random/facts/animal/fox)
+- [fox images](https://randomfox.ca/floof/)
